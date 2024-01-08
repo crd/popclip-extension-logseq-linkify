@@ -1,0 +1,5 @@
+# popclip
+name: Logseq Linkify
+icon: symbol:highlighter
+requirements: [text, paste]
+javascript: popclip.pasteText('[[' + popclip.input.text + ']]')
